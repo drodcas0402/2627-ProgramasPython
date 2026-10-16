@@ -1,0 +1,10 @@
+def main():
+	peso = float(input("Introduce tu peso en kg: "))
+	altura = float(input("Introduce tu peso en m: "))
+	
+	IMC = peso / (altura **2)
+	
+	print(f"Tu índice de masa corporal es {IMC:.2f}")
+	
+if __name__ == "__main__":
+	main()
